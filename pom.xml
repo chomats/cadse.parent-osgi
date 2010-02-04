@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>fr.imag.adele.cadse</groupId>
+  <artifactId>fr.imag.adele.cadse.parent.osgi</artifactId>
+  <packaging>pom</packaging>
+  <name>fr.imag.adele.cadse.parent.osgi</name>
+  <version>2.3.0-SNAPSHOT</version>
+  <parent>
+  	<artifactId>fr.imag.adele.cadse.parent</artifactId>
+  	<groupId>fr.imag.adele.cadse</groupId>
+  	<version>2.3.0-SNAPSHOT</version>
+  	<relativePath>../fr.imag.adele.cadse.parent</relativePath>
+  </parent>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>fr.imag.adele.tycho</groupId>
+  			<artifactId>maven-osgi-packaging-plugin</artifactId>
+  			<version>0.7.0-SNAPSHOT</version>
+  			<extensions>true</extensions>
+  		</plugin>
+  	</plugins>
+  </build>
+</project>
