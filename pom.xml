@@ -46,6 +46,7 @@
 						<extensions>true</extensions>
 						<executions>
 							<execution>
+								<phase>package</phase>
 								<goals>
 									<goal>bundle-source</goal>
 								</goals>
