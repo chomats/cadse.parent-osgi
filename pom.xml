@@ -26,7 +26,7 @@
 						<Bundle-Description>${project.description}</Bundle-Description>
 						<Private-Package></Private-Package>
 						<Import-Package>*</Import-Package>
-						<Export-Package>*;version="${version.cadse}"</Export-Package>
+						<Export-Package>${project.name};version="${version.cadse}"</Export-Package>
 						<_removeheaders>Bnd-LastModified, Include-Resource</_removeheaders>
 					</instructions>
 				</configuration>
