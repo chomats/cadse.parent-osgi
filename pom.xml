@@ -4,7 +4,7 @@
 	<artifactId>fr.imag.adele.cadse.parent.osgi</artifactId>
 	<packaging>pom</packaging>
 	<name>fr.imag.adele.cadse.parent.osgi</name>
-	<version>2.3.2-SNAPSHOT</version>
+	<version>2.3.2</version>
 	<parent>
 		<artifactId>fr.imag.adele.cadse.parent</artifactId>
 		<groupId>fr.imag.adele.cadse</groupId>
